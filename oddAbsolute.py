@@ -1,7 +1,13 @@
 def calculateAbsolute():
-    
     # This first line is provided for you
-    in_num  = input("Enter a number: ")
+    in_num = int(input("Enter a number: "))
+    x = 21
+    if in_num > x:
+        in_num =abs(in_num - x)*2
+    else:
+        in_num =abs(in_num - x)
+            
+    print(in_num)
     # end assignment
 
 ## if you want to test locally before you try to sync
