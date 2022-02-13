@@ -3,9 +3,9 @@ def calculateAbsolute():
     in_num = int(input("Enter a number: "))
     x = 21
     if in_num > x:
-        in_num =abs(in_num - x)*2
+        in_num =abs(int(in_num - x))*2
     else:
-        in_num =abs(in_num - x)
+        in_num =abs(int(in_num - x))
             
     print(in_num)
     # end assignment
